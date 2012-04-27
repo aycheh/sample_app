@@ -1,0 +1,28 @@
+Your bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.
+Post-install message from multi_json:
+********************************************************************************
+
+  MultiJson.encode is deprecated and will be removed in the next major version.
+  Use MultiJson.dump instead.
+
+  MultiJson.decode is deprecated and will be removed in the next major version.
+  Use MultiJson.load instead.
+
+  MultiJson.engine is deprecated and will be removed in the next major version.
+  Use MultiJson.adapter instead.
+
+  MultiJson.engine= is deprecated and will be removed in the next major
+  version. Use MultiJson.use instead.
+
+  MultiJson.default_engine is deprecated and will be removed in the next major
+  version. Use MultiJson.default_adapter instead.
+
+********************************************************************************
+
+Post-install message from rdoc:
+Depending on your version of ruby, you may need to install ruby rdoc/ri data:
+
+<= 1.8.6 : unsupported
+ = 1.8.7 : gem install rdoc-data; rdoc-data --install
+ = 1.9.1 : gem install rdoc-data; rdoc-data --install
+>= 1.9.2 : nothing to do! Yay!
